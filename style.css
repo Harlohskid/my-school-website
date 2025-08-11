@@ -1,0 +1,295 @@
+:root {
+  --green: #008000;
+  --white: #ffffff;
+  --orange: #ffa500;
+  --purple: #800080;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  background-color: var(--white);
+  overflow-x: hidden;
+}
+header .logo-container {
+  background-color: var(--purple);
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo-container .logo {
+  background-color: var(--white);
+  color: var(--purple);
+  font-size: 30px;
+  font-weight: 800;
+  padding: 5px;
+  border-radius: 0px 5px 0px 5px;
+}
+
+.logo-container nav ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+header nav ul a {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.but button {
+  background-color: var(--white);
+  color: var(--purple);
+  font-size: 20px;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 45px;
+  padding: 5px;
+  margin: 10px 10px;
+  box-shadow: 1px 0px 3px 0px var(--green);
+  transition: 0.2s ease-out;
+}
+.but button:hover {
+  background: linear-gradient(to right #ffa60006, #008000ba);
+  border: 1px solid var(--white);
+}
+
+.About {
+  width: 100%;
+  height: 100vh;
+  background: url(./image/image-1.jpeg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headline {
+  width: 80vw;
+}
+.headline h1 {
+  align-items: center;
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 20px;
+  color: var(--green);
+  font-weight: 900;
+}
+
+.headline h3 {
+  align-items: center;
+  text-align: center;
+  width: 80vw;
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.Subheadline p {
+  font-size: 20px;
+  color: var(--purple);
+  background-color: rgba(255, 255, 255, 0.308);
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px 0px 20px 0px;
+  margin-bottom: 20px;
+}
+
+.but1 {
+  display: flex;
+  justify-content: center;
+}
+
+.but1 button {
+  color: var(--white);
+  font-weight: 400;
+  background: linear-gradient(to right, var(--white), var(--purple));
+  padding: 20px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: 0.3s ease-out;
+}
+.but1 button:hover {
+  border: #008000;
+}
+.Course {
+  background-color: antiquewhite;
+  padding: 50px;
+}
+
+.Course h2 {
+  text-align: center;
+  font-size: 40px;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.Course p {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 18px;
+  font-style: italic;
+}
+.Course .container {
+  padding: 30px 80px;
+}
+
+.Course .container .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+}
+
+.Course .container .row .col .card {
+  width: 300px;
+  height: auto;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px var(--orange);
+}
+
+.Course .container .row .col .card img {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+.Course .container .row .col .card .cardtext {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Course .container .row .col .card h3 {
+  color: var(--purple);
+  text-align: center;
+  padding-top: 10px;
+}
+
+.Course .container .row .col .card p {
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 10px;
+  color: var(--orange);
+}
+
+.Course .container .row .col .card button {
+  border: 0;
+  background-color: var(--purple);
+  color: var(--white);
+  padding: 8px 18px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* contact */
+.contact {
+  width: 100%;
+  padding: 20px 40px;
+}
+.contact .row {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact .contactus {
+  width: 50%;
+  padding: 20px;
+  background-color: rgba(245, 245, 245, 0.897);
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px rgba(128, 0, 128, 0.66);
+}
+.contactus h2 {
+  color: var(--orange);
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.contactus p {
+  color: var(--green);
+  font-size: 18px;
+  align-items: center;
+}
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info .info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 16px;
+}
+.contact .info i {
+  color: var(--purple);
+  font-size: 25px;
+}
+
+.contact .info p {
+  color: var(--orange);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* col form */
+.contact .col {
+  width: 50%;
+  background-color: #a8a8a859;
+  padding: 20px;
+}
+
+.form h2 {
+  color: var(--purple);
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+
+.forminput {
+  display: flex;
+  flex-direction: column;
+}
+.forminput label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.forminput input {
+  padding: 12px 8px;
+  border-radius: 5px;
+  border: none;
+}
+.forminput textarea {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.submit-btn button {
+  color: var(--orange);
+  border-radius: 5px;
+  background-color: var(--purple);
+  font-size: 25px;
+  padding: 14px 20px;
+  width: 100%;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 2s;
+}
+.submit-btn button:hover {
+  color: var(--white);
+}
