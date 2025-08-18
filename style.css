@@ -22,6 +22,13 @@ header .logo-container {
   align-items: center;
   padding: 10px;
 }
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
 .logo-container .logo {
   background-color: var(--white);
   color: var(--purple);
@@ -292,4 +299,87 @@ header nav ul a {
 }
 .submit-btn button:hover {
   color: var(--white);
+}
+
+footer {
+  background-color: gray;
+  width: 100%;
+  padding: 30px;
+  margin: auto;
+}
+
+.footcontainer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footcontainer .Aboutinfo {
+  width: 60%;
+  margin-bottom: 30px;
+}
+.footcontainer .Aboutinfo .logo h1 {
+  background-color: var(--white);
+  color: var(--purple);
+  font-size: 20px;
+  font-weight: 800;
+  padding: 5px;
+  border-radius: 0px 5px 0px 5px;
+  display: inline-block;
+}
+.footcontainer .Aboutinfo .logo,
+p {
+  padding-bottom: 15px;
+}
+
+.footcontainer .Aboutinfo p {
+  color: var(--purple);
+  font-size: 20px;
+  font-weight: 400;
+}
+.Aboutinfo .medialink {
+  color: var(--purple);
+  cursor: pointer;
+  font-size: 20px;
+
+  display: flex;
+  gap: 20px;
+  transition: 0.2s;
+}
+.Aboutinfo .medialink i:hover {
+  opacity: 0.5;
+}
+
+.footcontainer .menulink {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.footcontainer .menulink ul {
+  list-style-type: none;
+  display: block;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footcontainer .menulink ul li a {
+  color: var(--purple);
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.footcontainer .menulink ul li a:hover {
+  color: var(--orange);
+}
+
+footer .copyright p {
+  text-align: center;
+  color: var(--purple);
+  font-size: 18px;
+  padding-top: 20px;
+  margin-bottom: 7px;
 }

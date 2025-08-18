@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+  header .logo-container {
+    height: 50px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .logo-container .logo {
+    font-size: 15px;
+    padding: 3px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  .About {
+    height: 80vh;
+    flex-direction: column;
+  }
+
+  .headline h1 {
+    font-size: 19px;
+  }
+
+  .headline h3 {
+    font-size: 18px;
+    color: blueviolet;
+  }
+
+  .Subheadline p {
+    font-size: 13xp;
+  }
+
+  .but1 button {
+    font-size: 12px;
+  }
+  .Course {
+    padding: 30px;
+  }
+
+  .Course h2 {
+    font-size: 30px;
+  }
+  .Course p {
+    font-size: 15px;
+  }
+
+  .Course .container {
+    padding: 10px;
+  }
+
+  .Course .container .row {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
